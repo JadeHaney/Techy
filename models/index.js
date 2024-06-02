@@ -1,6 +1,6 @@
 const User = require("./User");
 const Post = require("./Post");
-const Comment = require("./Comment");
+const Comment = require("./Comments"); // Reference the correct file name
 
 User.hasMany(Post, {
     foreignKey: "user_id",
@@ -19,7 +19,7 @@ Post.belongsTo(User, {
 Post.hasMany(Comment, {
     foreignKey: "post_id",
     onDelete: "CASCADE"
-})
+});
 
 Comment.belongsTo(User, {
     foreignKey: "user_id"

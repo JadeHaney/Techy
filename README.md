@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Description](#description)
 - [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
+- [Layout](#acceptance-criteria)
 - [Mock-Up](#mock-up)
 - [Getting Started](#getting-started)
 - [Database Models](#database-models)
@@ -19,7 +19,7 @@ Welcome to **Techy**, a CMS-style blog site designed just for you. Here, you can
 > **I WANT** a CMS-style blog site  
 > **SO THAT** I can publish articles, blog posts, and my thoughts and opinions  
 
-## Acceptance Criteria
+## Layout
 - **🏠 Homepage and Navigation:**
   - When you visit the site for the first time, you'll see the homepage with existing blog posts (if any).
   - You'll find navigation links for the homepage, dashboard, and an option to log in.
